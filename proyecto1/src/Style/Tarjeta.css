@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&display=swap');
+.Titulo{
+    font-family: "Elsie", serif;
+    font-size: 30px;
+    color: aqua;
+}
+
+.Imagen{
+    width: 200px;
+    height: 200px;
+}
+
+.Centrar{
+    display: flex;
+    flex-direction: row;
+    background: violet;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.Orga{
+    flex-direction: column;
+}
