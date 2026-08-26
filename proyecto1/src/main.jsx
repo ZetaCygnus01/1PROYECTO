@@ -1,14 +1,19 @@
-import Tarjeta from "./componentes/Tarjeta";
+import Tarjeta from "./Orquestadores/Tarjeta";
 import { StrictMode } from "react";
 import { createRoot} from "react-dom/client";
-import Imagen1 from './img/IMAGES.png'
+import cartoon from './data.json'
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-      <Tarjeta
-        title="Mario"
-        descripcion="Este es un personaje muy divertido"
-        img={Imagen1}
-        color="red"
-      />
+      {
+        cartoon.map((cartoon)=>(
+          <Tarjeta
+            key={cartoon.id}
+            title={cartoon.title}
+            descripcion={cartoon.descripcion}
+            img={cartoon.img}
+            color={cartoon.color}
+          />
+        ))
+      }
   </StrictMode>
 )

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Mordecai",
+    "img": "https://i.pinimg.com/736x/93/d7/20/93d7200e3c55ae0fa8c8f596ecc709d2.jpg",
+    "descripcion": "Mordecai es un personaje de cartoon network",
+    "color": "red"
+  },
+  {
+    "id": 2,
+    "title": "Rigby",
+    "img": "https://i.pinimg.com/736x/ae/a4/7a/aea47ace8128a33ce2c3788f6abd9b65.jpg",
+    "descripcion": "Rigby es un personaje de cartoon network",
+    "color": "blue"
+  },
+  {
+    "id": 3,
+    "title": "Benson",
+    "img": "https://i.pinimg.com/736x/9a/7b/c7/9a7bc7e5b2d490c2accfcc95bce60e2f.jpg",
+    "descripcion": "Stuart es relajado...",
+    "color": "green"
+  },
+    {
+    "id": 4,
+    "title": "Skips",
+    "img": "https://i.pinimg.com/736x/ec/ea/0a/ecea0a6cf5d3bb1db0ea269b3c3c8df8.jpg",
+    "descripcion": "Stuart es relajado...",
+    "color": "green"
+  },
+    {
+    "id": 5,
+    "title": "Thomas",
+    "img": "https://i.pinimg.com/736x/8b/a7/8b/8ba78b92afd6337d03b758c365214e39.jpg",
+    "descripcion": "Stuart es relajado...",
+    "color": "green"
+  }
+]
