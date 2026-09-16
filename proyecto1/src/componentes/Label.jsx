@@ -1,6 +1,6 @@
-function Label({ texto }) {
+function Label({ texto, identificador }) {
     return (
-        <label>
+        <label htmlFor={identificador}>
             {texto}
         </label>
     );
