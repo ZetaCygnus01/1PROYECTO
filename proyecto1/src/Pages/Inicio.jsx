@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Inicio() {
   return (
     <div>
-      <h1>Mi proyecto</h1>
+      <h1>Mi proyecto Santiago Garzon</h1>
 
       <p>Bienvenido a mi proyecto de React</p>
 

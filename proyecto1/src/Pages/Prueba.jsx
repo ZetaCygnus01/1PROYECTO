@@ -1,11 +1,14 @@
 import Tarjeta from "../Orquestadores/Tarjeta";
 import cartoon from "../data.json";
+import { Link } from "react-router-dom";
 
 function Prueba() {
   return (
     <div>
       <h1>Personajes</h1>
-
+        <Link to="/">
+            Volver al inicio
+        </Link>
       {cartoon.map((personaje) => (
         <Tarjeta
           key={personaje.id}
