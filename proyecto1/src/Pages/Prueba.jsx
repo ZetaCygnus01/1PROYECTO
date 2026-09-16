@@ -6,18 +6,15 @@ function Prueba() {
     <div>
       <h1>Personajes</h1>
 
-      {
-        cartoon.map((cartoon) => (
-          <Tarjeta
-            key={cartoon.id}
-            title={cartoon.title}
-            descripcion={cartoon.descripcion}
-            img={cartoon.img}
-            color={cartoon.color}
-          />
-        ))
-      }
-
+      {cartoon.map((personaje) => (
+        <Tarjeta
+          key={personaje.id}
+          title={personaje.title}
+          descripcion={personaje.descripcion}
+          img={personaje.img}
+          color={personaje.color}
+        />
+      ))}
     </div>
   );
 }

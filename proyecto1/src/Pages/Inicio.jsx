@@ -1,23 +1,17 @@
 import { Link } from "react-router-dom";
 
 function Inicio() {
-    return (
-        <div>
-            <h1>Mi proyecto React</h1>
+  return (
+    <div>
+      <h1>Mi proyecto</h1>
 
-            <p>Selecciona una opción:</p>
+      <p>Bienvenido a mi proyecto de React</p>
 
-            <Link to="/prueba">
-                Página de prueba
-            </Link>
-
-            <br />
-
-            <Link to="/formulario">
-                Formulario
-            </Link>
-        </div>
-    );
+      <Link to="/prueba">
+        Ver personajes
+      </Link>
+    </div>
+  );
 }
 
 export default Inicio;
