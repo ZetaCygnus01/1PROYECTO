@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Inicio from "./Pages/Inicio";
 import Prueba from "./Pages/Prueba";
-import Formulario from "./Pages/Formulario"
+import Formulario from "./Orquestadores/Formulario"
 
 function App() {
   return (
