@@ -1,4 +1,4 @@
-import '../Style/Tarjeta.css'
+import '../../Style/Tarjeta.css'
 
 export default function Imagen({imga}){
     return(

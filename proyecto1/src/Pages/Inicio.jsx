@@ -15,7 +15,7 @@ function Inicio() {
 
                 <div className="opciones">
 
-                    <Link to="/prueba" className="tarjeta">
+                    <Link to="/Tar" className="tarjeta">
                         <div className="icono">📚</div>
 
                         <h2>Página de prueba</h2>

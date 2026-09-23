@@ -1,6 +1,6 @@
-import Label from "../componentes/Label";
-import Input from "../componentes/Input";
-import Boton from "../componentes/Boton";
+import Label from "../Formulario/Label";
+import Input from "../Formulario/Input";
+import Boton from "../Formulario/Boton";
 import { Link } from "react-router-dom";
 import "../Style/Formulario.css";
 
