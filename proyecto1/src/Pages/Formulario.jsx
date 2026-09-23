@@ -2,7 +2,7 @@ import Label from "../componentes/Label";
 import Input from "../componentes/Input";
 import Boton from "../componentes/Boton";
 import { Link } from "react-router-dom";
-import "./Formulario.css";
+import "../Style/Formulario.css";
 
 function Formulario() {
     return (
