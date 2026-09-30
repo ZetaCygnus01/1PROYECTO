@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom"
 import Desintegracion from "../Componentes/Home/Desintegracion"
-import ABC from '../img/billy.jpg'
+import Tar from "./Tar"
+import ABC from '../img/SHOW.jpg'
 import "../Style/Inicio.css"
 
 export default function Inicio() {
@@ -10,7 +11,7 @@ export default function Inicio() {
             <h1>Bienvenidos</h1>
             <Desintegracion
                 src={ABC}
-                onfin={()=> navigate('/Tarjetas')}
+                onFin={()=> navigate('/Tar')}
                 />
         </div>
     )
