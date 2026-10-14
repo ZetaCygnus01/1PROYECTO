@@ -3,7 +3,7 @@ import botonImg from '../../img/boton.png';
 
 export default function Boton() {
     return (
-        <Link to="/formulario">
+        <Link to="/Formulario">
             <img src={botonImg} alt="Ir al formulario" />
         </Link>
     );

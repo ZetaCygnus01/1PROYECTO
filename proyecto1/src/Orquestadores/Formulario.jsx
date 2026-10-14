@@ -4,6 +4,7 @@ import Boton from "../Componentes/Formulario/Boton";
 import { Link } from "react-router-dom";
 import "../Style/Formulario.css";
 
+
 function Formulario() {
     return (
         <div className="contenedor-formulario">
